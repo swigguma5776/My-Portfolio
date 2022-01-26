@@ -1,30 +1,31 @@
 import React, { useContext, useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
-import { Container, Row, Col } from 'react-bootstrap';
-import Title from '../Title/Title';
-import AboutImg from '../Image/AboutImg';
-import PortfolioContext from '../../context/context';
+// import Fade from 'react-reveal/Fade';
+// import { Container, Row, Col } from 'react-bootstrap';
+// import Title from '../Title/Title';
+// import AboutImg from '../Image/AboutImg';
+import PortfolioContext from '../../context/data';
 
-const About = () => {
-  const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+export default function About() {
+  const context = useContext(PortfolioContext);
 
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isDesktop, setIsDesktop] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
-  }, []);
+    console.log('context', context);
+    // if (window.innerWidth > 769) {
+    //   setIsDesktop(true);
+    //   setIsMobile(false);
+    // } else {
+    //   setIsMobile(true);
+    //   setIsDesktop(false);
+    // }
+  }, [context]);
 
   return (
     <section id="about">
-      <Container>
+      Hello!
+      {/* <Container>
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
@@ -50,12 +51,7 @@ const About = () => {
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
+                    <a target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn--resume" href={resume}>
                       Resume
                     </a>
                   </span>
@@ -64,9 +60,7 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </section>
   );
-};
-
-export default About;
+}
