@@ -7,11 +7,9 @@ interface ProviderProps {
   children: React.ReactNode;
 }
 
-const UiProvider = ({ children }: ProviderProps) => (
+export const UiProvider = ({ children }: ProviderProps) => (
   <ThemeProvider theme={theme}>
     <GlobalStyles />
     {children}
   </ThemeProvider>
 );
-
-export default UiProvider;

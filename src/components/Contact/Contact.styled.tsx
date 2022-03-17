@@ -1,4 +1,6 @@
-#contact {
+import styled from 'styled-components';
+
+export const ContactSection = styled.section`
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
@@ -33,4 +35,4 @@
       }
     }
   }
-}
+`;

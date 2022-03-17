@@ -1,4 +1,6 @@
-#hero {
+import styled from 'styled-components';
+
+export const HeroSection = () => styled.section`
   min-height: 100vh;
   height: 100vh;
   display: flex;
@@ -62,4 +64,4 @@
       }
     }
   }
-}
+`;

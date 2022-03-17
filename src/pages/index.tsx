@@ -1,8 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { DataProvider } from '../context/data';
-
 // Components
 // import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
@@ -17,7 +15,10 @@ import about from '../mock/about.json';
 import projects from '../mock/projects.json';
 import contact from '../mock/contact.json';
 import footer from '../mock/footer.json';
-import UiProvider from '../components/Providers/UiProvider';
+
+// Providers
+import { DataProvider } from '../context/data';
+import { UiProvider } from '../components/Providers/UiProvider';
 
 const data = {
   head,

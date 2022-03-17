@@ -1,4 +1,6 @@
-#projects {
+import styled from 'styled-components';
+
+export const ProjectsSection = () => styled.section`
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -15rem;
@@ -74,4 +76,4 @@
       }
     }
   }
-}
+`;
