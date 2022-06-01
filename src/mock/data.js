@@ -77,7 +77,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'interior design portfolio',
+      name: 'codepen',
       url: 'https://ashleyswiggum.com',
     },
   ],
