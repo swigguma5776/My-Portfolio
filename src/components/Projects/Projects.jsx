@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            "This is my project description. I'm hoping this isn't just one description for all my projects."}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>

@@ -21,19 +21,19 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'file:///Users/user/Downloads/Alex%20Swiggum%20_%20Software%20Engineer.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project1.png',
+    title: 'Carbon Galaxy',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://carbon-galaxy-app.web.app/',
+    repo: 'https://github.com/swigguma5776/Carbon_Galaxy-React-Flask-App', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
