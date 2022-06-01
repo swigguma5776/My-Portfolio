@@ -37,21 +37,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project3.png',
-    title: 'Personal Portfolio',
-    info: 'My personal portfolio is an experiment with the React framework to further grow my skills as a front-end developer. It is an interactive Resume to showcase my skills and learn more about myself and my journey in the tech world.',
-    info2: 'Tech Stack: React, SCSS, Gatsby',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'project2.png',
     title: 'Famous Artist [ Database ]',
     info: 'An Artist Inventory Database where users can add, update, and delete Artists in their user authenticated profile. I utilized Flask Framework, PostgreSQL database and HTML/CSS display.',
     info2: 'Tech Stack: Flask, HTML, CSS, PostgreSQL, Heroku',
     url: 'https://artist-inventory-api.herokuapp.com/',
     repo: 'https://github.com/swigguma5776/Artist-Database-Api_Flask-Heroku_assignment', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project3.png',
+    title: 'Personal Portfolio',
+    info: 'My personal portfolio is an experiment with the React framework to further grow my skills as a front-end developer. It is an interactive Resume to showcase my skills and learn more about myself and my journey in the tech world.',
+    info2: 'Tech Stack: React, SCSS, Node.js',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
