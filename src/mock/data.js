@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.png',
     title: 'Carbon Galaxy',
-    info: '',
+    info: 'A full-stack, multi-page Carbon calculation app with a React frontend and Flask backend that allows users to calculate the Carbon Emissions of inputted website urls and shows the environmental impact their web presence has',
     info2: '',
     url: 'https://carbon-galaxy-app.web.app/',
     repo: 'https://github.com/swigguma5776/Carbon_Galaxy-React-Flask-App', // if no repo, the button will not show up
@@ -67,23 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alex-swiggum-profile/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/swigguma5776',
     },
   ],
 };
