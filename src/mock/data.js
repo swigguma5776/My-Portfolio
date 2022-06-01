@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'alexrswiggum@gmail.com',
 };
 
 // FOOTER DATA
@@ -77,7 +77,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
+      name: 'mail',
       url: 'https://ashleyswiggum.com',
     },
   ],
