@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'First off, I absolutely love what I do! Being a Software Engineer combines so many of my joys in life from solving real-world, complex problems, designing interfaces that seemlessly guide a user through an application, and the ability to constantly up your game and learn new things. My passions for programming don\'t stop at coding. As a nature enthusiast, I have a commitment to designing and engineering more sustainably to lower my web applications\' carbon footprint.'}
+                    'First off, I absolutely love what I do! Being a Software Engineer combines so many of my joys in life from solving real-world, complex problems, designing interfaces that seemlessly guide a user through an application, and the ability to constantly up your game and learn new things. My passions for programming don\'t stop at coding. As a nature enthusiast and licensed Interior Designer, I have a commitment to designing and engineering more sustainably to lower my web applications\' carbon footprint.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
