@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'file:///Users/user/Downloads/Alex%20Swiggum%20_%20Software%20Engineer.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1oKwHW18nSjuWBViVqjob8CCGZ7BSLQ-4/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'project1.png',
     title: 'Carbon Galaxy',
     info: 'A full-stack, multi-page Carbon calculation app with a React frontend and Flask backend that allows users to calculate the Carbon Emissions of inputted website urls and shows the environmental impact their web presence has',
-    info2: '',
+    info2: 'Tech Stack: React, Redux, Custom-Hooks, Flask, PostgreSQL, Google Firebase',
     url: 'https://carbon-galaxy-app.web.app/',
     repo: 'https://github.com/swigguma5776/Carbon_Galaxy-React-Flask-App', // if no repo, the button will not show up
   },
@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Famous Artist [ Database ]',
-    info: '',
-    info2: '',
+    info: 'An Artist Inventory Database where users can add, update, and delete Artists in their user authenticated profile. I utilized Flask Framework, PostgreSQL database and HTML/CSS display.',
+    info2: 'Tech Stack: Flask, PostgreSQL, Heroku',
     url: 'https://artist-inventory-api.herokuapp.com/',
     repo: 'https://github.com/swigguma5776/Artist-Database-Api_Flask-Heroku_assignment', // if no repo, the button will not show up
   },
