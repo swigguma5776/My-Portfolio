@@ -46,10 +46,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project3.png',
+    title: 'Personal Portfolio',
     info: '',
-    info2: '',
+    info2: 'Tech Stack: React, SASS, Gatsby',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
