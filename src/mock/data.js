@@ -77,7 +77,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'mail-reply',
+      name: 'user-circle-o',
       url: 'https://ashleyswiggum.com',
     },
   ],
