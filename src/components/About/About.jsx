@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'First off, I absolutely love what I do! Being a Software Engineer combines so many of my joys in life from solving real-world, complex problems, designing interfaces that seemlessly guide a user through an application, and the ability to constantly up your game and learn new things. As a Full Stack Software Engineer I have extensive knowledge in both backend languages and frameworks like Python, Flask, and PostgreSQL while also having experience in the MERN Stack. But my passions for programming don\'t stop at coding. As a nature enthusiast, I have a commitment to designing and engineering more sustainably to lower my web applications\' carbon footprint.'}
+                    'First off, I absolutely love what I do! Being a Software Engineer combines so many of my joys in life from solving real-world, complex problems, designing interfaces that seemlessly guide a user through an application, and the ability to constantly up your game and learn new things. As a Full Stack Software Engineer I have extensive knowledge in both backend languages and frameworks like Python and Flask along with experience in the MERN Stack. My passions for programming don\'t stop at coding. As a nature enthusiast, I have a commitment to designing and engineering more sustainably to lower my web applications\' carbon footprint.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'When I\'m deep diving into a new snippet of code, you can find me on some outdoor adventure. I grew up on a farm in the countryside and, while I love city living, I crave an amazing outdoor escape of any form whether that be kayaking, hiking, camping, you name it, I\'m there!'}
+                    'When I\'m deep diving into a new snippet of code, you can find me on some outdoor adventure. I grew up on a farm in the countryside and, while I love New Orleans living, I crave an amazing outdoor escape of any form whether that be kayaking, hiking, camping, you name it, I\'m there!'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'I\'m always open to any new oppurtunity. Please take a look at my resume and my development projects, as well as my GitHub and LinkedIn.'}
+                  {paragraphThree || 'I\'m always open to any new oppurtunity. Please take a look at my resume and my development projects.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
