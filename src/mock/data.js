@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project4.png',
     title: 'Alex Weather App',
-    info: 'Created a Weather App that utilizes the CurrentWeather API to showcase the current weather for the city and state the user specifizes. This APP also utilizes an Unsplash API to populate the user\'s dashboard with an image of the city they are searching for.',
+    info: 'Created a Weather App that utilizes the CurrentWeather API to showcase the current weather for the city and state the user specifizes. This app also utilizes an Unsplash API to populate the user\'s dashboard with an image of the city they are searching for.',
     info2: 'Tech Stack: Javascript, HTML, CSS',
     url: 'https://alexweather-app.herokuapp.com/',
     repo: 'https://github.com/swigguma5776/Current-Weather-Api_JavaScript.git', // if no repo, the button will not show up
@@ -57,7 +57,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project3.png',
     title: 'Personal Portfolio',
-    info: 'My personal portfolio is an experiment with the React framework to further grow my skills as a front-end developer. It is an interactive Resume to showcase my skills and learn more about myself and my journey in the tech world.',
+    info: 'My personal portfolio is an experiment with the React framework to further grow as a front-end developer. It is an interactive resume to showcase my skills and learn more about myself and my journey in the tech world.',
     info2: 'Tech Stack: React, SCSS, Node.js',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
