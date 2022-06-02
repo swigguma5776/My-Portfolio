@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.png',
-    title: 'Famous Artist [ Database ]',
+    title: 'Famous Artist  [ Database ]',
     info: 'An Artist Inventory Database where users can add, update, and delete Artists in their user authenticated profile. I utilized Flask Framework, PostgreSQL database and HTML/CSS display.',
     info2: 'Tech Stack: Flask, HTML, CSS, PostgreSQL, Heroku',
     url: 'https://artist-inventory-api.herokuapp.com/',
