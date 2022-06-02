@@ -59,8 +59,8 @@ export const projectsData = [
     title: 'Personal Portfolio',
     info: 'My personal portfolio is an experiment with the React framework to further grow as a front-end developer. It is an interactive resume to showcase my skills and learn more about myself and my journey in the tech world.',
     info2: 'Tech Stack: React, SCSS, Node.js',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: '/',
+    repo: 'https://github.com/swigguma5776/My-Portfolio.git', // if no repo, the button will not show up
   },
 ];
 
