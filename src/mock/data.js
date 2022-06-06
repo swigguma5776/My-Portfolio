@@ -87,7 +87,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'user-circle-o',
-      url: 'https://ashleyswiggum.com',
+      url: 'https://alexswiggum-design.com',
     },
   ],
 };
