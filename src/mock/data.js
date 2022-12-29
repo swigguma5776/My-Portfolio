@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'A full-stack, multi-page Carbon calculation app with a React frontend and Flask backend that allows users to calculate the Carbon Emissions of inputted website urls and shows the environmental impact their web presence has',
     info2: 'Tech Stack: React, Redux, Custom-Hooks, Flask, PostgreSQL, Google Firebase',
     url: 'https://carbon-galaxy-app.web.app/',
-    repo: 'https://github.com/swigguma5776/Carbon_Galaxy-React-Flask-App', // if no repo, the button will not show up
+    repo: 'https://github.com/swigguma5776/Carbon_Galaxy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
